@@ -445,7 +445,6 @@ nav {
 .btn-footer {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 60px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
