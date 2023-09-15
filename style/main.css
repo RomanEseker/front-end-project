@@ -65,6 +65,13 @@ header {
 
 .menu-list {
   display: flex;
+  color: #666;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
 }
 
 .menu-list {
@@ -385,6 +392,90 @@ nav {
   font-weight: 700;
   line-height: 70px;
   letter-spacing: 8px;
+  background: var(
+    --Gradient-Heading,
+    linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 53px;
+  stroke-width: 2px;
+  border-bottom: 3px solid var(--dark-content, #666);
+}
+
+.contact-footer-cont {
+  display: flex;
+}
+
+.iteam-list-footer {
+  display: flex;
+}
+
+.iteam-icon-footer {
+  margin-right: 20px;
+}
+
+.phone {
+  margin-right: 33px;
+  color: var(--Solid-Heading, #42446e);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.email {
+  margin-right: 48px;
+  color: var(--Solid-Heading, #42446e);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.btn-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.fotter-menu > ul {
+  display: flex;
+  align-items: center;
+}
+
+.fotter-menu > ul > li {
+  color: var(--Solid-Heading, #42446e);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-right: 52px;
+}
+
+.sign-footer p {
+  color: var(--dark-content, #666);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
+
+.sign-text {
   background: var(
     --Gradient-Heading,
     linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%)
