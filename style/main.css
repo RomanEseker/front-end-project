@@ -141,15 +141,13 @@ nav {
 
 .container-main-work-experience {
   display: flex;
+  justify-content: space-between;
   padding-bottom: 24px;
   margin-bottom: 30px;
   border-bottom: 3px solid grey;
   align-items: center;
 }
 
-.left-container-main-work-experience {
-  margin-right: 100px;
-}
 .left-container-main-work-experience h3 {
   color: var(--dark-content, #666);
   font-family: Poppins;
