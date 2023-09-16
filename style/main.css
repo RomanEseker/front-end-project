@@ -549,7 +549,220 @@ nav {
   .list-hard {
     font-size: 15px;
   }
+
+  .fotter-menu > ul > li {
+    font-size: 15px;
+  }
+
+  .sign-footer p {
+    font-size: 15px;
+  }
 }
 
-@media (max-width: 1121px) {
+@media (max-width: 1120px) {
+  .container {
+    width: 800px;
+  }
+
+  .logo-block > img,
+  .logo-footer-cont > img {
+    width: 86px;
+    height: 49px;
+  }
+
+  .feedback-icons > li,
+  .iteam-icon-footer > li {
+    width: 20px;
+    height: 20px;
+  }
+
+  .menu-list {
+    font-size: 15px;
+  }
+
+  .btn-project-container,
+  .top-project-container {
+    display: block;
+  }
+
+  .name p {
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  .photo-container > img {
+    width: 167px;
+    height: 167px;
+  }
+
+  .paragraph {
+    font-size: 30px;
+  }
+
+  .main-header {
+    display: block;
+  }
+
+  .question-lable,
+  .question-mail-lable {
+    font-size: 28px;
+  }
+
+  .menu-feedback-container {
+    justify-content: space-between;
+  }
+
+  .feedback-icons > li {
+    margin-right: 20px;
+  }
+
+  .feedback-icons-last {
+    margin-right: 0px;
+  }
+
+  .btn-footer {
+    display: block;
+  }
+
+  .sign-footer > p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 822px) {
+  .container {
+    width: 700px;
+  }
+
+  .container-top,
+  .container-btn {
+    display: block;
+  }
+
+  .stack-item {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 30px;
+  }
+
+  .stack-item > img,
+  .stack-item-last > img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .descr-tech-stack {
+    font-size: 20px;
+  }
+
+  .paragraph-center {
+    font-size: 30px;
+  }
+
+  .top-footer {
+    display: block;
+  }
+
+  .description-about-me-container {
+    width: 400px;
+  }
+
+  .contact-footer-cont {
+    display: block;
+  }
+
+  .phone,
+  .email {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .top-footer {
+    padding-bottom: 25px;
+  }
+
+  .btn-footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .feedback-icons {
+    display: none;
+  }
+}
+
+@media (max-width: 721px) {
+  .container {
+    width: 500px;
+  }
+
+  .question-lable,
+  .question-mail-lable {
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 4px;
+  }
+
+  .menu-list {
+    display: block;
+  }
+
+  .description-about-me-container {
+    width: 536px;
+  }
+
+  header {
+    height: 200px;
+  }
+}
+
+@media (max-width: 593px) {
+  .container {
+    width: 500px;
+  }
+
+  .fotter-menu > ul {
+    display: block;
+  }
+
+  .description-about-me-container {
+    width: 200px;
+  }
+
+  .block {
+    display: block;
+  }
+
+  .project-iten > img,
+  .project-iten-last > img {
+    width: 250px;
+  }
+
+  .project-iten,
+  .project-iten-last {
+    width: 250px;
+  }
+
+  .project-iten-last {
+    width: 250px;
+    margin-top: 86px;
+    margin-right: 0;
+    margin-bottom: 77px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: 300px;
+  }
+
+  .project-list-container {
+    padding: 0;
+  }
+
+  .stack-item > img,
+  .stack-item-last > img {
+    width: 100px;
+    height: 100px;
+  }
 }
