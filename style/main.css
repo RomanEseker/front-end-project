@@ -291,7 +291,7 @@ nav {
 
 .project-iten {
   width: 373px;
-  height: 567;
+  /* height: 567px; */
   margin-top: 96px;
   margin-right: 45px;
   margin-bottom: 87px;
@@ -302,7 +302,7 @@ nav {
 
 .project-iten-last {
   width: 373px;
-  height: 567;
+  /* height: 567px; */
   margin-top: 96px;
   margin-right: 0;
   margin-bottom: 87px;
@@ -482,4 +482,74 @@ nav {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1620px) {
+  .container {
+    width: 1000px;
+  }
+
+  .project-iten {
+    margin-top: 46px;
+    margin-right: 40px;
+    margin-bottom: 67px;
+  }
+
+  .project-iten-last {
+    margin-top: 46px;
+    margin-bottom: 67px;
+  }
+
+  .stack-item {
+    align-items: center;
+    margin-top: 120px;
+    margin-right: 40px;
+  }
+
+  .stack-item-last {
+    align-items: center;
+    margin-top: 120px;
+    margin-right: 0px;
+  }
+
+  .stack-item > img,
+  .stack-item-last > img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .project-iten {
+    width: 350px;
+    margin-top: 86px;
+    margin-right: 25px;
+    margin-bottom: 87px;
+  }
+
+  .project-iten > img,
+  .project-iten-last > img {
+    width: 350px;
+  }
+
+  .project-iten-last {
+    width: 350px;
+    margin-top: 86px;
+    margin-right: 0;
+    margin-bottom: 77px;
+  }
+
+  .project-name {
+    font-size: 20px;
+    padding: 27px 0;
+  }
+
+  .project-description {
+    font-size: 15px;
+  }
+
+  .list-hard {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1121px) {
 }
