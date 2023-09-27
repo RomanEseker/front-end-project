@@ -804,9 +804,17 @@ nav {
   }
 }
 
-@media (max-width: 423px) {
+@media (max-width: 515px) {
+  .main-block {
+    padding-top: 160px;
+  }
   .container {
-    width: 380px;
+    width: 100%;
+    padding: 0 auto;
+  }
+
+  .header_flex {
+    display: block;
   }
 
   .project-list-container {
@@ -819,6 +827,13 @@ nav {
     height: 100px;
   }
 
+  .description-about-me-container {
+    width: 100%;
+  }
+
+  .div-block {
+    width: auto;
+  }
   .question-lable {
     font-size: 12px;
   }
