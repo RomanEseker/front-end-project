@@ -3,6 +3,9 @@
   --greating-text-color: #42446e;
   --title-text-color: #42446e;
   --background-project-container: #fff;
+  --title-text-description-color: #666;
+  --link-project-color: #000;
+  --link-footer-color: #42446e;
 }
 
 * {
@@ -130,6 +133,9 @@ nav {
   --greating-text-color: #d9d9d9;
   --title-text-color: #ccc;
   --background-project-container: #363636;
+  --title-text-description-color: #ccc;
+  --link-project-color: #fff;
+  --link-footer-color: #a7a7a7;
 }
 
 .name p {
@@ -347,7 +353,7 @@ nav {
 }
 
 .project-name {
-  color: #000;
+  color: var(--title-text-color);
   text-align: center;
   font-size: 28px;
   font-style: normal;
@@ -357,7 +363,7 @@ nav {
 }
 
 .project-description {
-  color: var(--dark-content, #666);
+  color: var(--title-text-description-color);
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
@@ -374,7 +380,7 @@ nav {
 }
 
 .list-hard {
-  color: var(--Solid-Heading, #42446e);
+  color: var(--title-text-description-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -382,7 +388,7 @@ nav {
   text-align: center;
 }
 .list-hard-lable {
-  color: var(--Solid-Heading, #42446e);
+  color: var(--title-text-description-color);
   font-size: 14px;
   font-weight: 300;
 }
@@ -394,13 +400,16 @@ nav {
 }
 
 .link-project-container {
-  color: #000;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
-  text-decoration-line: underline;
+}
+
+.link-name {
+  text-decoration: underline;
+  color: var(--link-project-color);
 }
 
 .questions {
@@ -409,7 +418,7 @@ nav {
 }
 
 .question-lable {
-  color: var(--colors-heading, #1e0e62);
+  color: var(--title-text-color);
   text-align: center;
   font-family: DM Sans;
   font-size: 58px;
@@ -459,7 +468,7 @@ nav {
 
 .phone {
   margin-right: 33px;
-  color: var(--Solid-Heading, #42446e);
+  color: var(--link-footer-color);
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -469,7 +478,7 @@ nav {
 
 .email {
   margin-right: 48px;
-  color: var(--Solid-Heading, #42446e);
+  color: var(--link-footer-color);
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;
@@ -482,6 +491,14 @@ nav {
   justify-content: space-between;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.sign-footer-p {
+  color: var(--link-footer-color);
+}
+
+.fotter-menu-list-item a {
+  color: var(--link-footer-color);
 }
 
 .fotter-menu > ul {
@@ -500,7 +517,6 @@ nav {
 }
 
 .sign-footer p {
-  color: var(--dark-content, #666);
   text-align: center;
   font-family: Poppins;
   font-size: 18px;
