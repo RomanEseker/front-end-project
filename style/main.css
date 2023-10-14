@@ -351,10 +351,12 @@ nav {
 
 .container-top {
   display: flex;
+  align-items: center;
 }
 
 .container-btn {
   display: flex;
+  align-items: center;
 }
 
 .stack-item {
