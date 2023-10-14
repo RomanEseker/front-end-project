@@ -167,8 +167,8 @@ nav {
 
 .feedback-icons {
   display: flex;
-  align-items: center;
   gap: 20px;
+  height: 30px;
 }
 
 .name-section {
