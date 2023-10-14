@@ -39,8 +39,6 @@ moon_icon.onclick = function () {
       akar_clip_icon[key].src = "../images/akar-icons_link-chain-dark.svg";
       akar_github_icon[key].src = "../images/akar-icons_github-fill-dark.svg";
     }
-
-    localStorage.setItem(key, value);
   } else {
     moon_icon.src = "../images/moon-outline.svg";
     cib_icon.src = "../images/cib_greensock-stack-light.svg";

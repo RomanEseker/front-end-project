@@ -1,0 +1,15 @@
+#main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.asd {
+  flex: 1 0 25%;
+  min-width: 400px;
+  max-width: 100%;
+  border: #fff solid 1px;
+  height: 400px;
+  background: #000;
+}
