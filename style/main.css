@@ -132,6 +132,7 @@ header {
 
 .menu-feedback-container {
   display: flex;
+  align-items: center;
 }
 
 .menu-switcher {
@@ -446,10 +447,17 @@ nav {
 }
 
 .link-project-container {
+  display: flex;
+  align-items: center;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
+}
+
+.akar-clip-icon,
+.akar-github-icon {
+  margin-right: 10px;
 }
 
 .link-name {
