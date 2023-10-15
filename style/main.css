@@ -717,6 +717,14 @@ nav {
   .main-stack-icon-container {
     gap: 55px;
   }
+
+  .btn-footer {
+    display: flex;
+  }
+
+  .fotter-menu > ul {
+    display: block;
+  }
 }
 
 @media (max-width: 930px) {
@@ -788,8 +796,8 @@ nav {
   }
 
   .stack-item > img {
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
   }
 
   .descr-tech-stack {
@@ -805,7 +813,7 @@ nav {
   }
 
   .description-about-me-container {
-    width: 400px;
+    width: 100%;
   }
 
   .contact-footer-cont {
@@ -830,11 +838,15 @@ nav {
   .feedback-icons {
     display: none;
   }
+
+  .top-footer {
+    display: flex;
+  }
 }
 
-@media (max-width: 721px) {
+@media (max-width: 718px) {
   .container {
-    width: 500px;
+    width: 95%;
   }
 
   .question-lable,
@@ -855,11 +867,37 @@ nav {
   header {
     height: 100px;
   }
+
+  .main-stack-icon-container {
+    gap: 27px;
+  }
+
+  .project-list-container {
+    justify-content: center;
+  }
+
+  .phone {
+    margin-bottom: 0;
+  }
+  .phone,
+  .email {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 680px) {
+  .main-stack-icon-container {
+    gap: 10px;
+  }
 }
 
 @media (max-width: 593px) {
   .container {
-    width: 500px;
+    width: 95%;
+  }
+
+  .main-block {
+    padding-top: 160px;
   }
 
   .fotter-menu > ul {
@@ -867,37 +905,83 @@ nav {
   }
 
   .description-about-me-container {
-    width: 200px;
+    width: 100%;
   }
 
   .block {
     display: block;
   }
 
-  .project-iten > img {
-    width: 250px;
+  .main-stack-icon-container {
+    gap: 0px;
   }
 
-  .project-iten {
-    max-width: 250px;
+  .container-main-work-experience {
+    display: flex;
   }
 
-  .project-iten-last {
-    width: 250px;
-    margin-top: 86px;
-    margin-right: 0;
-    margin-bottom: 77px;
+  .div-block {
+    display: block;
+    width: 360px;
+    height: 20px;
   }
 }
 
 @media (max-width: 521px) {
   .container {
-    width: 400px;
+    width: 95%px;
   }
 
   .stack-item > img {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .main-stack-icon-container {
+    gap: 20px;
+  }
+
+  .left-container-main-work-experience h3 {
+    font-size: 15px;
+  }
+
+  .div-block {
+    width: 290px;
+  }
+
+  .fotter-menu-list-item a {
+    font-size: 10px;
+  }
+
+  .sign-footer p {
+    font-size: 10px;
+  }
+
+  .logo-block > img,
+  .logo-footer-cont > img {
+    width: 66px;
+    height: 29px;
+  }
+
+  .phone,
+  .email {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+
+  #github-footer-icon,
+  #twitter-footer-icon,
+  #linkedin-footer-icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .top-footer {
+    padding-bottom: 10px;
+  }
+
+  .btn-footer {
+    padding-top: 10px;
   }
 }
 
@@ -906,7 +990,7 @@ nav {
     padding-top: 160px;
   }
   .container {
-    width: 100%;
+    width: 95%;
   }
 
   .header_flex {
@@ -921,35 +1005,11 @@ nav {
   }
 
   .stack-item > img {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
   }
 
   .description-about-me-container {
     width: 100%;
-  }
-
-  .div-block {
-    width: auto;
-  }
-  .question-lable {
-    font-size: 12px;
-  }
-
-  .link-project-container {
-    font-size: 12px;
-  }
-
-  .sign-footer > p {
-    font-size: 9px;
-  }
-
-  .menu-list > li > a {
-    font-size: 12px;
-  }
-
-  .phone,
-  .email {
-    font-size: 15px;
   }
 }
