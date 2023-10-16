@@ -6,6 +6,7 @@
   --title-text-description-color: #666;
   --link-project-color: #000;
   --link-footer-color: #42446e;
+  --color-hamburger: #000;
 }
 
 .dark-theme {
@@ -16,6 +17,7 @@
   --title-text-description-color: #ccc;
   --link-project-color: #fff;
   --link-footer-color: #a7a7a7;
+  --color-hamburger: #fff;
 }
 
 @font-face {
@@ -344,7 +346,9 @@ nav {
 }
 
 .stack-item {
-  max-width: 78px;
+  /* max-width: 78px; */
+  max-width: 100px;
+  max-height: 100px;
   flex: 2 0 25%;
 }
 
@@ -363,7 +367,6 @@ nav {
   flex: 1 0 25%;
   max-width: 373px;
   margin-top: 96px;
-  /* margin-right: 40px; */
   margin-bottom: 87px;
   border-radius: 20px;
   background: var(--background-project-container);
@@ -761,8 +764,21 @@ nav {
     display: block;
     position: fixed;
     top: 1rem;
-    right: 1rem;
-    color: black;
+    right: 2rem;
+    color: var(--color-hamburger);
+  }
+
+  .feedback-icons {
+    display: flex;
+  }
+
+  .feedback-icons-item {
+    margin: 0;
+    display: none;
+  }
+
+  .menu-feedback-container {
+    justify-content: right;
   }
 }
 
@@ -835,9 +851,9 @@ nav {
     padding-bottom: 25px;
   }
 
-  .feedback-icons {
+  /* .feedback-icons {
     display: none;
-  }
+  } */
 
   .top-footer {
     display: flex;
@@ -929,7 +945,7 @@ nav {
 
 @media (max-width: 521px) {
   .container {
-    width: 95%px;
+    width: 95%;
   }
 
   .stack-item > img {
