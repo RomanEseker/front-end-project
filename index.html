@@ -4,12 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Poppins:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="./style/main.css" />
   </head>
   <body>
@@ -23,24 +17,24 @@
             <i class="fa-solid fa-bars" id="bars"></i>
             <ul class="menu-list">
               <li class="menu-item"><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Tech Stack</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Contact</a></li>
+              <li class="menu-item"><a href="#">About</a></li>
+              <li class="menu-item"><a href="#">Tech Stack</a></li>
+              <li class="menu-item"><a href="#">Projects</a></li>
+              <li class="menu-item"><a href="#">Contact</a></li>
             </ul>
           </nav>
           <div>
             <ul class="feedback-icons">
-              <li>
+              <li class="feedback-icons-item">
                 <a href="#">
                   <img
                     class="icon-feedback"
-                    src="./images/github-topr.svg"
+                    src="./images/github-top.svg"
                     alt="github logo"
                   />
                 </a>
               </li>
-              <li>
+              <li class="feedback-icons-item">
                 <a href="#"
                   ><img
                     class="icon-feedback"
@@ -48,13 +42,23 @@
                     alt="twitter logo"
                 /></a>
               </li>
-              <li class="feedback-icons-last">
+              <li class="feedback-icons-item">
                 <a href="#"
                   ><img
                     class="icon-feedback"
                     src="./images/linkedin-top.svg"
                     alt="linkedin logo"
                 /></a>
+              </li>
+              <li>
+                <div class="feedback-icons-last dark-mode-container">
+                  <img
+                    class="dark-mode-container-icons"
+                    id="moon_icon"
+                    src="./images/moon-outline.svg"
+                    alt="moon-ouline icon"
+                  />
+                </div>
               </li>
             </ul>
           </div>
@@ -75,7 +79,7 @@
           <img src="./images/my-photo.png" alt="my photo" />
         </div>
       </section>
-      <section class="about-me container header_flex">
+      <section class="about-me container">
         <div class="description-about-me-container">
           <h2 class="paragraph">About Me</h2>
           <p>
@@ -86,7 +90,7 @@
           </p>
         </div>
       </section>
-      <section class="work-exp container header_flex">
+      <section class="work-exp container">
         <div>
           <h2 class="paragraph">Work Experience</h2>
           <div class="description-about-me-container">
@@ -132,7 +136,7 @@
                 <span class="lable-place">Sep 2021 - Dec 2021</span>
               </div>
             </div>
-            <div class="container-main-work-experience-last block">
+            <div class="container-main-work-experience block">
               <div class="left-container-main-work-experience">
                 <h3>SEO / SEM Specialist</h3>
                 <div class="div-block">
@@ -156,11 +160,13 @@
           </div>
         </div>
       </section>
-      <section class="enducation container header_flex">
+      <section class="enducation container">
         <div>
           <h2 class="paragraph">Education</h2>
-          <div class="description-about-me-container">
-            <div class="container-main-work-experience education-inner block">
+          <div class="enducation-container">
+            <div
+              class="container-main-work-experience education-inner block description-about-me-container"
+            >
               <div class="left-container-main-work-experience">
                 <h3>Bachelor in Electronics & Communication</h3>
                 <div class="div-block">
@@ -191,49 +197,50 @@
             Technologies I’ve been working with recently
           </h3>
         </div>
-        <div class="main-stack-icon-container">
-          <div class="container-top">
-            <div class="stack-item">
-              <img src="./images/html-stack.svg" alt="html stack" />
-            </div>
-            <div class="stack-item">
-              <img src="./images/css-stack.svg" alt="css stack" />
-            </div>
-            <div class="stack-item">
-              <img src="./images/js-stack.svg" alt="java script stack" />
-            </div>
-            <div class="stack-item">
-              <img src="./images/react-stack.svg" alt="react stack" />
-            </div>
-            <div class="stack-item">
-              <img src="./images/vector-stack.svg" alt="vektor stack" />
-            </div>
-            <div class="stack-item-last">
-              <img src="./images/bootstrap-stack.svg" alt="bootstrap stack" />
-            </div>
+        <div class="main-stack-icon-container container">
+          <div class="stack-item">
+            <img src="./images/html-stack.svg" alt="html stack" />
           </div>
-          <div class="container-btn">
-            <div class="stack-item">
-              <img src="./images/tailwind-stack.svg" alt="tailwild stack" />
-            </div>
-            <div class="stack-item">
-              <img src="./images/sass-stack.svg" alt="sass stack" />
-            </div>
-            <div class="stack-item">
-              <img src="./images/git-stack.svg" alt="git stack" />
-            </div>
-            <div class="stack-item">
-              <img
-                src="./images/cib_greensock-stack.svg"
-                alt="cib greensock stack"
-              />
-            </div>
-            <div class="stack-item">
-              <img src="./images/vscode-statck.svg" alt="visual code icon" />
-            </div>
-            <div class="stack-item-last">
-              <img src="./images/github-statck.svg" alt="github statck" />
-            </div>
+          <div class="stack-item">
+            <img src="./images/css-stack.svg" alt="css stack" />
+          </div>
+          <div class="stack-item">
+            <img src="./images/js-stack.svg" alt="java script stack" />
+          </div>
+          <div class="stack-item">
+            <img src="./images/react-stack.svg" alt="react stack" />
+          </div>
+          <div class="stack-item">
+            <img src="./images/vector-stack.svg" alt="vektor stack" />
+          </div>
+          <div class="stack-item">
+            <img src="./images/bootstrap-stack.svg" alt="bootstrap stack" />
+          </div>
+          <div class="stack-item">
+            <img src="./images/tailwind-stack.svg" alt="tailwild stack" />
+          </div>
+          <div class="stack-item">
+            <img src="./images/sass-stack.svg" alt="sass stack" />
+          </div>
+          <div class="stack-item">
+            <img src="./images/git-stack.svg" alt="git stack" />
+          </div>
+          <div class="stack-item">
+            <img
+              id="cib_greensock-icon"
+              src="./images/cib_greensock-stack-light.svg"
+              alt="cib greensock stack"
+            />
+          </div>
+          <div class="stack-item">
+            <img src="./images/vscode-statck.svg" alt="visual code icon" />
+          </div>
+          <div class="stack-item">
+            <img
+              id="github-icon"
+              src="./images/github-statck-light.svg"
+              alt="github statck"
+            />
           </div>
         </div>
       </section>
@@ -243,204 +250,212 @@
           <h3 class="descr-tech-stack">Things I’ve built so far</h3>
         </div>
         <div class="project-list-container container">
-          <div class="top-project-container">
-            <div class="project-iten">
-              <img src="./images/rectangle_1.png" alt="rectangle project" />
-              <div class="container-description">
-                <h2 class="project-name">Project Tile goes here</h2>
-                <p class="project-description">
-                  This is sample project description random things are here in
-                  description This is sample project lorem ipsum generator for
-                  dummy content
-                </p>
-                <br />
-                <p class="list-hard">
-                  <span class="list-hard-lable">Tech stack:</span> HTML ,
-                  JavaScript, SASS, React
-                </p>
-                <br />
-                <div class="links-projects">
-                  <div class="link-project-container">
-                    <img
-                      src="./images/akar-icons_link-chain.svg"
-                      alt="project 1"
-                    />
-                    <a class="link-name" href="#">Live Preview</a>
-                  </div>
-                  <div class="link-project-container">
-                    <img
-                      src="./images/akar-icons_github-fill.svg"
-                      alt="akar icon"
-                    />
-                    <a class="link-name" href="#">View Code</a>
-                  </div>
+          <div class="project-iten">
+            <img src="./images/rectangle_1.png" alt="rectangle project" />
+            <div class="container-description">
+              <h2 class="project-name">Project Tile goes here</h2>
+              <p class="project-description">
+                This is sample project description random things are here in
+                description This is sample project lorem ipsum generator for
+                dummy content
+              </p>
+              <br />
+              <p class="list-hard">
+                <span class="list-hard-lable">Tech stack:</span> HTML ,
+                JavaScript, SASS, React
+              </p>
+              <br />
+              <div class="links-projects">
+                <div class="link-project-container">
+                  <img
+                    class="akar-clip-icon"
+                    src="./images/akar-icons_link-chain-light.svg"
+                    alt="project 1"
+                  />
+                  <a class="link-name" href="#">Live Preview</a>
                 </div>
-              </div>
-            </div>
-            <div class="project-iten">
-              <img src="./images/rectangle_2.png" alt="rectangle project 2" />
-              <div class="container-description">
-                <h2 class="project-name">Project Tile goes here</h2>
-                <p class="project-description">
-                  This is sample project description random things are here in
-                  description This is sample project lorem ipsum generator for
-                  dummy content
-                </p>
-                <br />
-                <p class="list-hard">
-                  <span class="list-hard-lable">Tech stack:</span> HTML ,
-                  JavaScript, SASS, React
-                </p>
-                <br />
-                <div class="links-projects">
-                  <div class="link-project-container">
-                    <img
-                      src="./images/akar-icons_link-chain.svg"
-                      alt="project 1"
-                    />
-                    <a class="link-name" href="#">Live Preview</a>
-                  </div>
-                  <div class="link-project-container">
-                    <img
-                      src="./images/akar-icons_github-fill.svg"
-                      alt="akar icon"
-                    />
-                    <a class="link-name" href="#">View Code</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="project-iten-last">
-              <img src="./images/rectangle_3.png" alt="rectangle project 3" />
-              <div class="container-description">
-                <h2 class="project-name">Project Tile goes here</h2>
-                <p class="project-description">
-                  This is sample project description random things are here in
-                  description This is sample project lorem ipsum generator for
-                  dummy content
-                </p>
-                <br />
-                <p class="list-hard">
-                  <span class="list-hard-lable">Tech stack:</span> HTML ,
-                  JavaScript, SASS, React
-                </p>
-                <br />
-                <div class="links-projects">
-                  <div class="link-project-container">
-                    <img
-                      src="./images/akar-icons_link-chain.svg"
-                      alt="project 1"
-                    />
-                    <a class="link-name" href="#">Live Preview</a>
-                  </div>
-                  <div class="link-project-container">
-                    <img
-                      src="./images/akar-icons_github-fill.svg"
-                      alt="akar icon"
-                    />
-                    <a class="link-name" href="#">View Code</a>
-                  </div>
+                <div class="link-project-container">
+                  <img
+                    class="akar-github-icon"
+                    src="./images/akar-icons_github-fill-light.svg"
+                    alt="akar icon"
+                  />
+                  <a class="link-name" href="#">View Code</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="btn-project-container">
-            <div class="project-iten">
-              <img src="./images/rectangle_4.png" alt="rectangle project 4" />
-              <div class="container-description">
-                <h2 class="project-name">Project Tile goes here</h2>
-                <p class="project-description">
-                  This is sample project description random things are here in
-                  description This is sample project lorem ipsum generator for
-                  dummy content
-                </p>
-                <br />
-                <p class="list-hard">
-                  <span class="list-hard-lable">Tech stack:</span> HTML ,
-                  JavaScript, SASS, React
-                </p>
-                <br />
-                <div class="links-projects">
-                  <div class="link-project-container">
-                    <img
-                      src="./images/akar-icons_link-chain.svg"
-                      alt="project 1"
-                    />
-                    <a class="link-name" href="#">Live Preview</a>
-                  </div>
-                  <div class="link-project-container">
-                    <img
-                      src="./images/akar-icons_github-fill.svg"
-                      alt="akar icon"
-                    />
-                    <a class="link-name" href="#">View Code</a>
-                  </div>
+          <div class="project-iten">
+            <img src="./images/rectangle_2.png" alt="rectangle project 2" />
+            <div class="container-description">
+              <h2 class="project-name">Project Tile goes here</h2>
+              <p class="project-description">
+                This is sample project description random things are here in
+                description This is sample project lorem ipsum generator for
+                dummy content
+              </p>
+              <br />
+              <p class="list-hard">
+                <span class="list-hard-lable">Tech stack:</span> HTML ,
+                JavaScript, SASS, React
+              </p>
+              <br />
+              <div class="links-projects">
+                <div class="link-project-container">
+                  <img
+                    class="akar-clip-icon"
+                    src="./images/akar-icons_link-chain-light.svg"
+                    alt="project 1"
+                  />
+                  <a class="link-name" href="#">Live Preview</a>
+                </div>
+                <div class="link-project-container">
+                  <img
+                    class="akar-github-icon"
+                    src="./images/akar-icons_github-fill-light.svg"
+                    alt="akar icon"
+                  />
+                  <a class="link-name" href="#">View Code</a>
                 </div>
               </div>
             </div>
-            <div class="project-iten">
-              <img src="./images/rectangle_5.png" alt="rectangle project 5" />
-              <div class="container-description">
-                <h2 class="project-name">Project Tile goes here</h2>
-                <p class="project-description">
-                  This is sample project description random things are here in
-                  description This is sample project lorem ipsum generator for
-                  dummy content
-                </p>
-                <br />
-                <p class="list-hard">
-                  <span class="list-hard-lable">Tech stack:</span> HTML ,
-                  JavaScript, SASS, React
-                </p>
-                <br />
-                <div class="links-projects">
-                  <div class="link-project-container">
-                    <img
-                      src="./images/akar-icons_link-chain.svg"
-                      alt="project 1"
-                    />
-                    <a class="link-name" href="#">Live Preview</a>
-                  </div>
-                  <div class="link-project-container">
-                    <img
-                      src="./images/akar-icons_github-fill.svg"
-                      alt="akar icon"
-                    />
-                    <a class="link-name" href="#">View Code</a>
-                  </div>
+          </div>
+          <div class="project-iten">
+            <img src="./images/rectangle_3.png" alt="rectangle project 3" />
+            <div class="container-description">
+              <h2 class="project-name">Project Tile goes here</h2>
+              <p class="project-description">
+                This is sample project description random things are here in
+                description This is sample project lorem ipsum generator for
+                dummy content
+              </p>
+              <br />
+              <p class="list-hard">
+                <span class="list-hard-lable">Tech stack:</span> HTML ,
+                JavaScript, SASS, React
+              </p>
+              <br />
+              <div class="links-projects">
+                <div class="link-project-container">
+                  <img
+                    class="akar-clip-icon"
+                    src="./images/akar-icons_link-chain-light.svg"
+                    alt="project 1"
+                  />
+                  <a class="link-name" href="#">Live Preview</a>
+                </div>
+                <div class="link-project-container">
+                  <img
+                    class="akar-github-icon"
+                    src="./images/akar-icons_github-fill-light.svg"
+                    alt="akar icon"
+                  />
+                  <a class="link-name" href="#">View Code</a>
                 </div>
               </div>
             </div>
-            <div class="project-iten-last">
-              <img src="./images/rectangle_6.png" alt="rectangle project 6" />
-              <div class="container-description">
-                <h2 class="project-name">Project Tile goes here</h2>
-                <p class="project-description">
-                  This is sample project description random things are here in
-                  description This is sample project lorem ipsum generator for
-                  dummy content
-                </p>
-                <br />
-                <p class="list-hard">
-                  <span class="list-hard-lable">Tech stack:</span> HTML ,
-                  JavaScript, SASS, React
-                </p>
-                <br />
-                <div class="links-projects">
-                  <div class="link-project-container">
-                    <img
-                      src="./images/akar-icons_link-chain.svg"
-                      alt="project 1"
-                    />
-                    <a class="link-name" href="#">Live Preview</a>
-                  </div>
-                  <div class="link-project-container">
-                    <img
-                      src="./images/akar-icons_github-fill.svg"
-                      alt="akar icon"
-                    />
-                    <a class="link-name" href="#">View Code</a>
-                  </div>
+          </div>
+          <div class="project-iten">
+            <img src="./images/rectangle_4.png" alt="rectangle project 4" />
+            <div class="container-description">
+              <h2 class="project-name">Project Tile goes here</h2>
+              <p class="project-description">
+                This is sample project description random things are here in
+                description This is sample project lorem ipsum generator for
+                dummy content
+              </p>
+              <br />
+              <p class="list-hard">
+                <span class="list-hard-lable">Tech stack:</span> HTML ,
+                JavaScript, SASS, React
+              </p>
+              <br />
+              <div class="links-projects">
+                <div class="link-project-container">
+                  <img
+                    class="akar-clip-icon"
+                    src="./images/akar-icons_link-chain-light.svg"
+                    alt="project 1"
+                  />
+                  <a class="link-name" href="#">Live Preview</a>
+                </div>
+                <div class="link-project-container">
+                  <img
+                    class="akar-github-icon"
+                    src="./images/akar-icons_github-fill-light.svg"
+                    alt="akar icon"
+                  />
+                  <a class="link-name" href="#">View Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-iten">
+            <img src="./images/rectangle_5.png" alt="rectangle project 5" />
+            <div class="container-description">
+              <h2 class="project-name">Project Tile goes here</h2>
+              <p class="project-description">
+                This is sample project description random things are here in
+                description This is sample project lorem ipsum generator for
+                dummy content
+              </p>
+              <br />
+              <p class="list-hard">
+                <span class="list-hard-lable">Tech stack:</span> HTML ,
+                JavaScript, SASS, React
+              </p>
+              <br />
+              <div class="links-projects">
+                <div class="link-project-container">
+                  <img
+                    class="akar-clip-icon"
+                    src="./images/akar-icons_link-chain-light.svg"
+                    alt="project 1"
+                  />
+                  <a class="link-name" href="#">Live Preview</a>
+                </div>
+                <div class="link-project-container">
+                  <img
+                    class="akar-github-icon"
+                    src="./images/akar-icons_github-fill-light.svg"
+                    alt="akar icon"
+                  />
+                  <a class="link-name" href="#">View Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-iten">
+            <img src="./images/rectangle_6.png" alt="rectangle project 6" />
+            <div class="container-description">
+              <h2 class="project-name">Project Tile goes here</h2>
+              <p class="project-description">
+                This is sample project description random things are here in
+                description This is sample project lorem ipsum generator for
+                dummy content
+              </p>
+              <br />
+              <p class="list-hard">
+                <span class="list-hard-lable">Tech stack:</span> HTML ,
+                JavaScript, SASS, React
+              </p>
+              <br />
+              <div class="links-projects">
+                <div class="link-project-container">
+                  <img
+                    class="akar-clip-icon"
+                    src="./images/akar-icons_link-chain-light.svg"
+                    alt="project 1"
+                  />
+                  <a class="link-name" href="#">Live Preview</a>
+                </div>
+                <div class="link-project-container">
+                  <img
+                    class="akar-github-icon"
+                    src="./images/akar-icons_github-fill-light.svg"
+                    alt="akar icon"
+                  />
+                  <a class="link-name" href="#">View Code</a>
                 </div>
               </div>
             </div>
@@ -455,7 +470,11 @@
     <footer class="container">
       <div class="top-footer">
         <div class="logo-footer-cont">
-          <img src="./images/logo-footer.svg" alt="logo footer" />
+          <img
+            id="logo-footer-icon"
+            src="./images/logo-footer-light.svg"
+            alt="logo footer"
+          />
         </div>
         <div class="contact-footer-cont">
           <div class="phone">+91 12345 09876</div>
@@ -463,13 +482,25 @@
           <div class="icon-footer-cont">
             <ul class="iteam-list-footer">
               <li class="iteam-icon-footer">
-                <img src="./images/github-footer.svg" alt="github footer" />
+                <img
+                  id="github-footer-icon"
+                  src="./images/github-footer.svg"
+                  alt="github footer"
+                />
               </li>
               <li class="iteam-icon-footer">
-                <img src="./images/twitter-footer.svg" alt="twitter footer" />
+                <img
+                  id="twitter-footer-icon"
+                  src="./images/twitter-footer.svg"
+                  alt="twitter footer"
+                />
               </li>
               <li>
-                <img src="./images/linkedin-footer.svg" alt="linkedin footer" />
+                <img
+                  id="linkedin-footer-icon"
+                  src="./images/linkedin-footer.svg"
+                  alt="linkedin footer"
+                />
               </li>
             </ul>
           </div>
@@ -477,24 +508,26 @@
       </div>
       <div class="btn-footer">
         <div class="fotter-menu">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Technologies</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contacts</a></li>
+          <ul class="fotter-menu-list">
+            <li class="fotter-menu-list-item"><a href="#">Home</a></li>
+            <li class="fotter-menu-list-item"><a href="#">About</a></li>
+            <li class="fotter-menu-list-item"><a href="#">Technologies</a></li>
+            <li class="fotter-menu-list-item"><a href="#">Projects</a></li>
+            <li class="fotter-menu-list-item"><a href="#">Contacts</a></li>
           </ul>
         </div>
         <div class="sign-footer">
-          <p>Designed and built by
-          <span class="sign-text">Pavan MG</span> with
-          <span class="sign-text">Love & Coffee</span>
+          <p class="sign-footer-p">
+            Designed and built by <span class="sign-text">Pavan MG</span> with
+            <span class="sign-text">Love & Coffee</span>
           </p>
-        </divsign-footer>
+        </div>
       </div>
     </footer>
-
     <script src="./script/main.js"></script>
-    <script src="https://kit.fontawesome.com/ce6be2d7f2.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ce6be2d7f2.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
